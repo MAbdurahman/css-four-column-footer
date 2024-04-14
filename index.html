@@ -1,26 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Four Column Footer</title>
-		<!-- fontawesome -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-		/>
-        <!-- normalize resets -->
-        <link rel="stylesheet" href="./css/normalize@8.0.1.css" />
-		<!-- main styles -->
-		<link rel="stylesheet" href="./css/styles.css" />
-	</head>
-	<body>
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Four Column Footer</title>
+    <!-- fontawesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize resets -->
+    <link href="./css/normalize@8.0.1.css" rel="stylesheet"/>
+    <!-- main styles -->
+    <link href="./css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header"></header>
+<main class="main"></main>
+<footer class="footer__section">
+    <div class="utils-container">
+        <div class="footer">
+            <div class="footer__top">
+                <div class="footer__top--left">
+                    <h5 class="footer__sub-title">Company Vision</h5>
+                    <p class="footer__vision-statement">
+                        Our mission is to leverage cutting-edge technology to empower
+                        individuals and organizations to achieve their full
+                        potential. We are committed to delivering high-quality
+                        products and services that exceed our customers'
+                        expectations, while promoting sustainability and ethical
+                        practices in all aspects of our operations.
+                    </p>
+                </div>
+                <div class="footer__top--center-left">
+                    <h5 class="footer__sub-title">Navigation</h5>
+                    <ul class="footer__navigation--list">
+                        <li class="footer__navigation--list-item"><a class="footer__navigation--link"
+                                                                     href="#">home</a>
+                        </li>
+                        <li class="footer__navigation--list-item"><a class="footer__navigation--link"
+                                                                     href="#">about</a>
+                        </li>
+                        <li class="footer__navigation--list-item"><a class="footer__navigation--link"
+                                                                     href="#">team</a>
+                        </li>
+                        <li class="footer__navigation--list-item"><a class="footer__navigation--link"
+                                                                     href="#">services</a>
+                        </li>
+                        <li class="footer__navigation--list-item"><a class="footer__navigation--link"
+                                                                     href="#">contact
+                            us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__top--center-right">
+                    <h5 class="footer__sub-title">Contact</h5>
+                    <ul class="footer__contact--list">
+                        <li class="footer__contact--link-item">
+                            <a class="footer__contact-link" href="#">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Jazzy Music, LLC</span>
+                                <span>1234 Main Street</span>
+                                <span>Some City, Some State</span>
+                            </a>
+                        </li>
+                        <li class="footer__contact--link-item">
+                            <a class="footer__contact-link" href="#">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                                jazzy@music.com
+                            </a>
+                        </li>
+                        <li class="footer__contact--link-item">
+                            <a class="footer__contact-link" href="#">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-solid fa-phone"></i>
+                                123.456.7890
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__top--right">
+                    <h5 class="footer__sub-title">Social Media</h5>
+                    <ul class="footer__social-media--list">
+                        <li class="footer__social-media--link-item">
+                            <a href="#" class="footer__social-media--link">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-media--link-item">
+                            <a href="#" class="footer__social-media--link">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-brands fa-square-github"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-media--link-item">
+                            <a href="#" class="footer__social-media--link">
+                                <!--<img src="./img/svgs/map-marker-alt-solid.svg" alt="map marker" class="footer__icon">-->
+                                <i class="fa-brands fa-codepen"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer__separator">
+            <div class="footer__bottom">
+                <p class="footer__bottom-copyright">&copy;&nbsp;2024 JazzyMusic, All
+                    Rights Reserved</p>
+                <a class="footer__bottom-terms" href="#"
+                   target="_blank">Terms and Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
-		<!-- jquery -->
-		<script src="./js/jquery/jquery-3.6.4.min.js"></script>
-        <!-- main scripts -->
-		<script src="./js/scripts.js"></script>
-	</body>
+<!-- jquery -->
+<script src="./js/jquery/jquery-3.6.4.min.js"></script>
+<!-- main scripts -->
+<script src="./js/scripts.js"></script>
+</body>
 </html>
