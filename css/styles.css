@@ -336,7 +336,10 @@ input[type=number] {
 	top: -45px;
 }
 @media screen and (max-width: 734px) {
-	top: -36px;
+	.fa-solid.fa-location-dot{
+		top: -36px;
+
+	}
 }
 .fa-solid.fa-location-dot,
 .fa-solid.fa-envelope-open-text,
