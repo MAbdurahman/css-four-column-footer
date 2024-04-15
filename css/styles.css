@@ -60,6 +60,11 @@ html {
 	scroll-behavior: smooth;
 
 }
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 83.33%;
+	}
+}
 
 body {
 	position: relative;
@@ -268,6 +273,17 @@ input[type=number] {
 	padding-bottom: 1.5em;
 
 }
+@media screen and (max-width: 1200px) {
+	.footer__top {
+		grid-template-columns: 2fr 1fr;
+	}
+}
+@media screen and (max-width: 506px) {
+	.footer__top {
+		grid-template-columns: 1fr;
+	}
+}
+
 .footer__sub-title {
 	margin-bottom: 0.25em;
 	font-weight: 600;
@@ -318,6 +334,9 @@ input[type=number] {
 .fa-solid.fa-location-dot{
 	position: absolute;
 	top: -45px;
+}
+@media screen and (max-width: 734px) {
+	top: -36px;
 }
 .fa-solid.fa-location-dot,
 .fa-solid.fa-envelope-open-text,
